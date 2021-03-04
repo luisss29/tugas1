@@ -9,7 +9,7 @@ private:
 public:
 	void getAngka1();
 	void getAngka2();
-	void hitung(){hasil=bil1-bil2;}
+	void hitung(){hasil=bil1*bil2;}
 	void display();
 };
 
@@ -28,7 +28,7 @@ void Tugas::getAngka2()
 void Tugas::display()
 {
 	cout << "Hasil tambah kedua bilangan : " << endl;
-	cout << bil1 << " - " << bil2 << " = " << hasil << endl;
+	cout << bil1 << " * " << bil2 << " = " << hasil << endl;
 }
 
 int main()
